@@ -1,0 +1,16 @@
+SPOTIFY_CLIENT_ID=""
+SPOTIFY_CLIENT_SECRET=""
+
+REFRESH_TOKEN=""
+
+# ID of the playlist to copy songs from.
+# You can get this from the playlist URL, e.g. for https://open.spotify.com/playlist/<playlist_id>
+SOURCE_PLAYLIST_ID=""
+
+# ID of the playlist to copy songs to.
+# You can get this from the playlist URL, e.g. for https://open.spotify.com/playlist/<playlist_id>
+DESTINATION_PLAYLIST_ID=""
+
+# Number of most recently added tracks to consider when selecting a random song to copy to the destination playlist.
+# For example, if set to 10, the script randomly chooses a track from the last 10 added to the source playlist.
+NUM_RECENT_TRACKS=50
